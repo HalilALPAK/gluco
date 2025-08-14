@@ -1,0 +1,27 @@
+Genel Proje Raporu
+==================
+
+Bu proje, Flutter ile geliştirilen bir sağlık takip uygulamasıdır. Kullanıcılar kan şekeri, yiyecek kalori, spor ve AI destekli öneriler alabilir. Backend tarafında Python ile besin sorgulama API'si bulunmaktadır.
+
+Özellikler:
+- Haftalık kan şekeri grafiği: Kullanıcıya son 7 günün kan şekeri değerlerini gün bazında gösterir. Grafik üzerinde eksenler ve başlıklar ile detaylı görselleştirme sunar.
+- Kan şekeri tahmini yapan derin öğrenme modeli: Kullanıcıdan alınan veriler (karbonhidrat, adım, kalori, nabız, insülin vb.) ile LSTM tabanlı bir model, gelecek kan şekeri değerini tahmin eder. Sonuçlar AI ile doktor rolünde yorumlanır.
+- Yiyecek kalori ve besin değerleri sorgulama
+- Spor ve aktivite takibi
+- AI ile doktor rolünde öneriler
+- Hive ile güvenli kullanıcı yönetimi
+- Kamera ile kalori hesaplama (yakında)
+
+Kurulum:
+1. Flutter bağımlılıklarını yükleyin (pubspec.yaml)
+2. Python backend'i başlatın (food_api_server.py)
+3. Uygulamayı çalıştırın
+
+API Güvenliği:
+API endpointleri koruma altına alınmalı, gerekirse JWT veya API anahtarı ile erişim sınırlandırılmalıdır.
+
+Demo Kullanıcı:
+Kullanıcı: demo@gmail.com
+Şifre: 123456
+
+Ekran görüntüleri için README dosyasındaki ilgili alanları kullanabilirsiniz.
