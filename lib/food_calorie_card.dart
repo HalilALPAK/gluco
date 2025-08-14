@@ -27,11 +27,12 @@ class _FoodCalorieCardState extends State<FoodCalorieCard> {
       _error = null;
     });
     try {
-      final response = await http.post(
-        Uri.parse('http://127.0.0.1:5002/get_nutrients'),
-        headers: {'Content-Type': 'application/json'},
-        body: jsonEncode({'food_name': yemekAdi}),
-      );
+final response = await http.post(
+  Uri.parse('https://gluco-backend.onrender.com/get_nutrients'), // Render URL’in
+  headers: {'Content-Type': 'application/json'},
+  body: jsonEncode({'food_name': yemekAdi}),
+);
+
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
         if (data['nutrients'] != null && data['nutrients'] is Map) {
