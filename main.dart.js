@@ -89751,7 +89751,7 @@ a7v(a){var s=0,r=A.P(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f
 var $async$xu=A.L(function(b,c){if(b===1){p.push(c)
 s=q}while(true)switch(s){case 0:o.V(new A.apw(o))
 q=3
-j=A.fv("http://127.0.0.1:5002/get_nutrients")
+j=A.fv("https://gluco-backend.onrender.com/get_nutrients")
 i=t.N
 h=A.al(["Content-Type","application/json"],i,i)
 s=6
