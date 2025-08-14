@@ -89512,7 +89512,7 @@ i=n.at==="Evet"?1:0
 h=n.ax==="Evet"?1:0
 p=5
 a9={}
-g=A.fv("http://127.0.0.1:5001/predict")
+g=A.fv("https://gluco-backend.onrender.com/predict")
 A.iN("API iste\u011fi g\xf6nderiliyor: "+A.n(g))
 A.iN("Veriler: {carb_input: "+A.n(m)+", steps: "+A.n(l)+", calories: "+A.n(k)+", heart_rate: "+A.n(j)+", bolus_volume_delivered: "+A.n(i)+", basal_rate: "+A.n(h)+"}")
 a0=t.N
